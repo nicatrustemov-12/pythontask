@@ -353,6 +353,88 @@ b=int(input())
 print(q_sade(a,b))"""            # L5,12
 
 
+'''def sade(n):
+    if n < 2:
+        return False
+    for i in range(2,int(n**0.5)+1):
+        if n%i==0:
+            return False
+    return True
+def hipersade(n):
+    
+    while n>0:
+        if not sade(n):
+            return False
+        n//=10
+    return True
+n=int(input())
+if hipersade(n):
+    print("hipersadedir")
+else:
+    print("hipersade deyil.")'''                    #L5,13
+
+
+
+
+
+
+
+'''def ebob(a,b):
+    while b:
+        a,b=b,a%b
+    return a
+def ekob(a,b):
+    return a*b//ebob(a,b)
+a=int(input())
+b=int(input())
+print('ebob:',ebob(a,b))
+print('ekob:',ekob(a,b))'''               #L5,14
+
+
+
+
+
+'''def f(a,b,c):
+    if a>b:
+        a,b=b,a
+    if b>c:
+        b,c=c,b
+    if a>c:
+        a,c=c,a
+    return a,b,c
+a,b,c=map(int,input().split())
+x,y,z=f(a,b,c)
+print(x,y,z)'''                     #L5,15
+
+
+
+
+'''def ebob(a,b):
+    while b:
+        a,b=b,a%b
+    return a
+def f(m,n):
+    k=ebob(m,n)
+    return  m//k,n//k
+m,n=map(int,input().split())
+x,y=f(m,n)
+print(x,y)'''               #L5,16
+
+
+
+
+'''def t(n):
+    ters=0
+    while n>0:
+        ters=ters*10+n%10
+        n//=10
+    return ters
+n=int(input())
+print(t(n))'''              #L5,17
+
+
+
+
 
 
 
