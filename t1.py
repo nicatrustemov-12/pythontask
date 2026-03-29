@@ -433,17 +433,17 @@ n=int(input())
 print(t(n))'''              #L5,17
 
 
-"""n = 5
-for i in range(1, n+1):
-    print(" "*(n-i), end="")
+"""
+for i in range(1, 6):
+    print(" "*(6-i), end="")
     for j in range(1, i+1):
         print(j,end="")
     print()"""
 
 
-"""n = 5
-for i in range(1, n+1):
-    print(" "*(n-i), end="")
+"""
+for i in range(1, 5):
+    print(" "*(5-i), end="")
     for j in range(1, i+1):
         print(j,end=" ")
     print()"""
