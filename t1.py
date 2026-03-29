@@ -437,7 +437,7 @@ print(t(n))'''              #L5,17
 for i in range(1, 6):
     print(" "*(6-i), end="")
     for j in range(1, i+1):
-        print(j,end="")
+        print(j,end="")"""
     print()"""
 
 
@@ -448,7 +448,12 @@ for i in range(1, 5):
         print(j,end=" ")
     print()"""
 
-
+"""
+for i in range(1, 7):
+    print("* " * i)
+print()
+for i in range(6, 0, -1):
+    print("* " * i)
 
 
 
