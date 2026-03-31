@@ -499,3 +499,14 @@ print("Maksimum:", max1)
 print("2-ci maksimum:", max2)"""
 
 
+"""from random import*
+a = [randint(-10,10) for i in range(1,18)]
+print(a)
+b=[]
+for x in a:
+    if x<0 and x%2==0:
+        b.append(x)
+print(b)"""
+
+
+
