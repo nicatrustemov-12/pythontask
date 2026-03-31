@@ -474,3 +474,28 @@ else:
     print("Tapilmadi")"""
 
 
+"""from random import*
+a = [randint(1,50) for i in range(1,19)]
+print(a)
+
+
+# 1-ci maksimumu tapırıq
+max1 = a[0]
+for x in a:
+    if x > max1:
+        max1 = x
+
+# max1-in bütün tekrarlarını silirik
+while max1 in a:
+    a.remove(max1)
+
+# 2-ci maksimumu tapırıq
+max2 = a[0]
+for x in a:
+    if x > max2:
+        max2 = x
+
+print("Maksimum:", max1)
+print("2-ci maksimum:", max2)"""
+
+
