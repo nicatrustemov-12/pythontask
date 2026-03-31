@@ -457,3 +457,20 @@ for i in range(6, 0, -1):
 """
 
 
+"""from random import*
+A =[randint(1,50) for i in range(1,12)]
+print(A)
+tapilan = []
+istifade = []
+
+for x in A:
+    if x in istifade and x not in tapilan:
+        tapilan.append(x)
+    istifade.append(x)
+
+if tapilan:
+    print("Tapildi:", *tapilan)
+else:
+    print("Tapilmadi")"""
+
+
