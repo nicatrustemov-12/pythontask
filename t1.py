@@ -528,4 +528,24 @@ print(b)"""
 
 
 
+"""from random import*
+a=[randint(-100,100) for i in range(1,6)]
+print(a)
+
+musbet=[]
+menfi=[]
+sifir=[]
+for x in a:
+    if x>0:
+        musbet.append(x)
+    elif x<0:
+        menfi.append(x)
+    else:
+        sifir.append(x)
+b=musbet+menfi+sifir
+print(b)"""
+               
+
+
+
 
