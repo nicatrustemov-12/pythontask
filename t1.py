@@ -548,4 +548,29 @@ print(b)"""
 
 
 
+"""from random import randint
+
+A = [randint(1, 10) for _ in range(5)]
+print(A)
+
+max1 = A[0]
+max2 = A[0]
+i1 = 0
+i2 = 0
+
+for i in range(len(A)):
+    if A[i] > max1:
+        max2 = max1
+        i2 = i1
+        max1 = A[i]
+        i1 = i
+    elif A[i] > max2:
+        max2 = A[i]
+        i2 = i
+
+print("1-ci maksimum:", max1, "indeks:", i1)
+print("2-ci maksimum:", max2, "indeks:", i2)"""
+
+
+
 
