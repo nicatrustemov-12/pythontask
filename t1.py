@@ -573,4 +573,23 @@ print("2-ci maksimum:", max2, "indeks:", i2)"""
 
 
 
+"""cumle = input("Ifadeni daxil et: ")
+
+sozler = []
+soz = ""
+
+for simvol in cumle:
+    if simvol.isalpha():   # hərfdirsə
+        soz += simvol
+    else:
+        if soz != "":
+            sozler.append(soz)
+            soz = ""
+
+# son sözü əlavə etmək üçün
+if soz != "":
+    sozler.append(soz)
+
+print(sozler)"""
+
 
