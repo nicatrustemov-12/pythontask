@@ -582,12 +582,12 @@ for simvol in cumle:
     if simvol.isalpha():   # hərfdirsə
         soz += simvol
     else:
-        if soz != "":
+        if len(soz)!=0:
             sozler.append(soz)
             soz = ""
 
 # son sözü əlavə etmək üçün
-if soz != "":
+if len(soz)!=0:
     sozler.append(soz)
 
 print(sozler)"""
