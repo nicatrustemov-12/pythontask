@@ -593,3 +593,180 @@ if len(soz)!=0:
 print(sozler)"""
 
 
+
+'''t=(1,2,3,4,5,24,65,76)
+for i in range(len(t)):
+    if t[i] ==24:
+        print(i)'''            #L7,1
+
+
+'''t=(1,2,3,4,5,24,65,76)
+for i in range(len(t)):
+    if t[i]%3==0:
+        print(t[i])'''         #2
+
+
+"""list1=[]
+for i in range(5):
+    x=int(input())
+    list1+=[x]
+list2=[]
+for x in list1:
+       list2+=[x+5]
+print(list2)"""                 #3
+
+
+
+'''list1=[]
+for i in range(5):
+    x=int(input())
+    list1+=[x]
+list2=[]
+for x in list1:
+    if x%2!=0:
+        list2+=[x]
+print(list2)'''             #4
+
+
+
+'''from random import*
+list1=[]
+for i in range(1,8):
+    x=randint(0,10)
+    list1+=[x]
+cem=0
+hasil=1
+print(list1)
+for x in list1:
+    cem+=x
+    hasil*=x
+orta=cem/len(list1)
+minn=list1[0]
+maxx=list1[0]
+minindex=0
+maxindex=0
+for i in range(len(list1)):
+    if list1[i]>maxx:
+        maxx=list1[i]
+        maxindex=i
+    if list1[i]<minn:
+        minn=list1[i]
+        minindex=i
+print('cem:',cem)
+print('hasil:',hasil)
+print('orta:',orta)
+print('maxx:',maxx,'index:',maxindex)
+print('minn:',minn,'index:',minindex)'''     #5
+
+
+
+'''list1=[]
+for i in range(1,16):
+    list1+=[i*i]
+print(list1)
+print(list1[:5])
+print(list1[-5:])'''                #7
+
+
+
+'''list1=[int(input()) for i in range(1,6)]
+list2=[int(input()) for i in range(1,6)]
+say=0
+print(list1)
+print(list2)
+for i in range(len(list1)):
+    if list1[i]==list2[i]:
+         print(list1[i])
+         say+=1
+
+print('say:',say)'''            #9
+
+
+
+'''list1=[input() for i in range(1,4)]
+list2=[int(input()) for i in range(1,4)]        
+yeni=[]
+for i in range(len(list2)):
+    yeni+=[list1[i],list2[i]]
+print(yeni)'''        #11
+
+
+
+
+'''list1=[int(input()) for i in range(1,12)]
+cem=0
+for i in list1:
+    if i %2==0:
+        break
+    cem+=i
+print(cem)'''           #12
+
+
+'''from random import*
+n=int(input())
+list1=[randint(10,51) for i in range(n)]
+list2=[]
+for x in list1:
+    for i in range(1,x+1):
+        if i*i==x:
+            list2+=[x]
+print(list1)
+print(list2)'''             #13
+
+
+
+
+"""from random import*
+n=int(input())
+list1=[randint(100,999) for i in range(1,n)]
+list2=[]
+for x in list1:
+    s=x%10
+    e=(x//10)%10
+    if(s-e)%2==1 and (s+e)%2==1:
+        list2+=[x]
+print(list1)
+print(list2)"""           #14
+
+
+
+'''from math import *
+N=[6,2,5,3,9,7,4]
+print(N)
+yeni=[]
+for i in N:
+    c=0
+    for k in range(1,i+1):
+        c+=(4*sin(k)+2*k)/(log(9*k,3)*(2**k))
+    yeni+=[round(c,2)]
+print(yeni)'''         #19
+
+
+'''from random import*
+list1=[randint(-100,100) for i in range(1,9)]
+musbet=[]
+menfi=[]
+sifir=[]
+for i in list1:
+    if i >0:
+        musbet+=[i]
+    elif i <0:
+        menfi+=[i]
+    else:
+        sifir+=[i]
+yeni=musbet+sifir+menfi
+print(yeni,len(musbet))'''         #21
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
