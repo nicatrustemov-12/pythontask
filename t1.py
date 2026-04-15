@@ -194,6 +194,25 @@ for i in range(5):
 
 
 
+"""a=int(input())
+bolen=2
+say=0
+while a>1:
+    if a %bolen ==0:
+        print(bolen)
+        say+=1
+        while a %bolen ==0:
+            a//=bolen
+    bolen+=1
+if say==1:
+    print("sade")
+elif say==0:
+    print("ne sade,ne murekkeb")
+else:
+    print("murekkeb")"""
+
+
+
 """def f():
     
     cem=0
