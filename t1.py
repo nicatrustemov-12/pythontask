@@ -790,61 +790,7 @@ for i in range(row):
     print()
 
 
-n = len(matrix)
 
-# 1. Ən böyük element
-max_element = matrix[0][0]
-
-# 2. Ən kiçik element
-min_element = matrix[0][0]
-
-# 3. Birinci diaqonalın cəmi
-main_diag_sum = 0
-
-# 4. Birinci diaqonalın max və mini
-main_diag_max = matrix[0][0]
-main_diag_min = matrix[0][0]
-
-# 5. Yan diaqonal üçün
-side_diag_sum = 0
-side_diag_max = matrix[0][n-1]
-side_diag_min = matrix[0][n-1]
-
-for i in range(n):
-    for j in range(n):
-        # ümumi max və min
-        if matrix[i][j] > max_element:
-            max_element = matrix[i][j]
-        if matrix[i][j] < min_element:
-            min_element = matrix[i][j]
-
-    # əsas diaqonal (i == j)
-    main_diag_sum += matrix[i][i]
-
-    if matrix[i][i] > main_diag_max:
-        main_diag_max = matrix[i][i]
-    if matrix[i][i] < main_diag_min:
-        main_diag_min = matrix[i][i]
-
-    # yan diaqonal (i + j == n - 1)
-    side_diag_sum += matrix[i][n - i - 1]
-
-    if matrix[i][n - i - 1] > side_diag_max:
-        side_diag_max = matrix[i][n - i - 1]
-    if matrix[i][n - i - 1] < side_diag_min:
-        side_diag_min = matrix[i][n - i - 1]
-
-# Nəticələr
-print("Ən böyük element:", max_element)
-print("Ən kiçik element:", min_element)
-
-print("Əsas diaqonal cəmi:", main_diag_sum)
-print("Əsas diaqonal max:", main_diag_max)
-print("Əsas diaqonal min:", main_diag_min)
-
-print("Yan diaqonal cəmi:", side_diag_sum)
-print("Yan diaqonal max:", side_diag_max)
-print("Yan diaqonal min:", side_diag_min)
 
 
 
