@@ -781,13 +781,124 @@ print(yeni,len(musbet))'''         #21
 
 
 
-from random import randint
+"""from random import randint
 row,col=map(int,input().split())
 a=[[randint(10,99) for i in range(col)]for j in range(row)]
 for i in range(row):
     for j in range(col):
         print(f"{a[i][j]:4d}",end="")
+    print()"""
+
+
+
+
+'''from random import randint
+row,col=map(int,input().split())
+a=[[randint(10,99) for i in range(col)]for j in range(row)]
+for i in range(row):
+    maxx=float('-inf')
+    for j in range(col):
+        if a[i][j]>maxx:
+            maxx=a[i][j]
+            setir=i
+            sutun=j
+        print(f'{a[i][j]:4d}',end='')
+    print('max:',maxx)'''
+
+
+
+'''from random import randint
+row,col=map(int,input().split())
+a=[[randint(10,99) for i in range(col)]for j in range(row)]
+maxx=float('-inf')
+for i in range(row):
+    
+    for j in range(col):
+        if a[i][j]>maxx:
+            maxx=a[i][j]
+            setir=i
+            sutun=j
+        print(f'{a[i][j]:4d}',end='')
     print()
+print(maxx)'''
+
+
+
+
+'''from random import randint
+row,col=map(int,input().split())
+a=[[randint(10,99) for i in range(col)]for j in range(row)]
+
+for i in range(row):
+    for j in range(col):
+        print(f'{a[i][j]:4d}',end='')
+    print()
+
+for j in range(col):
+    maxx=float('-inf')
+    for i in range(row):
+        if a[i][j]>maxx:
+            maxx=a[i][j]
+            setir=i
+            sutun=j
+            
+    print('sutun max',maxx)
+    print()'''
+
+
+
+
+'''from random import randint
+row,col=map(int,input().split())
+a=[[randint(10,99) for i in range(col)]for j in range(row)]
+maxx=float('-inf')
+maxx2=maxx
+for i in range(row):
+    
+    for j in range(col):
+        if a[i][j]>maxx:
+            maxx2=maxx
+            maxx=a[i][j]
+            
+        elif a[i][j]>maxx2:
+            maxx2=a[i][j]
+            
+        print(f'{a[i][j]:4d}',end='')
+    print()
+print('max:',maxx,maxx2)'''
+
+
+
+
+'''from random import randint
+row,col=map(int,input().split())
+a=[[randint(10,99) for i in range(col)]for j in range(row)]
+maxx=float('-inf')
+for i in range(row):
+    
+    for j in range(col):
+        if a[i][i]>maxx:
+            maxx=a[i][i]
+            setir=i
+            sutun=i
+        print(f'{a[i][j]:4d}',end='')
+    print()
+print('max:',maxx,setir,sutun)'''
+
+
+'''from random import randint
+row,col=map(int,input().split())
+a=[[randint(10,99) for i in range(col)]for j in range(row)]
+for i in range(row):
+    for j in range(col):
+        if j==0 or j==row-1 or i==j:
+            a[i][j]='*'
+            print(f'{a[i][j]:2s}',end='')
+        
+        else:
+            print(f'{a[i][j]:1d}',end='')
+    print()'''
+
 
 
 
