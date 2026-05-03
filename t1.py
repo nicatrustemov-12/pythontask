@@ -899,7 +899,7 @@ for i in range(row):
             print(f'{a[i][j]:1d}',end='')
     print()'''
 
-
+#tekrar
 """
 
 l1=[]
