@@ -902,18 +902,14 @@ for i in range(row):
 #tekrar
 """
 
-l1=[]
-l2=[]
-while True:
-    x=int(input())
-    if 0<=x<=9:
-        l1+=[x]
-    if x==-1:
-        break
-for x in range(0,10):
-    if 0<=x<=9 and x not in l1:
-        l2+=[x]   
-print('daxil edilen:',l1,"qalanlar",l2)"""
+s = input()
+res = ""
+
+for d in "0123456789":
+    if d not in s:
+        res+=d
+
+print(res) """   #4
 
 
 """s = input()
@@ -935,7 +931,7 @@ for c in s:
         yeni += c   
 
 print(yeni)
-"""
+"""   #5
 
     
 """
@@ -946,7 +942,7 @@ for i in range(0, len(s)-1, 2):
 if len(s) % 2 == 1:
     yeni += s[-1]
 print(yeni)    
-"""
+"""     #6
 
 """s = input()
 yeni = ""
@@ -957,5 +953,5 @@ for d in "0123456789":
             if d not in yeni:
                 res += d
 
-print(yeni)"""
+print(yeni)"""    #7
 
