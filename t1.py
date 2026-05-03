@@ -900,9 +900,20 @@ for i in range(row):
     print()'''
 
 
+"""
 
-
-
+l1=[]
+l2=[]
+while True:
+    x=int(input())
+    if 0<=x<=9:
+        l1+=[x]
+    if x==-1:
+        break
+for x in range(0,10):
+    if 0<=x<=9 and x not in l1:
+        l2+=[x]   
+print('daxil edilen:',l1,"qalanlar",l2)"""
 
 
 
