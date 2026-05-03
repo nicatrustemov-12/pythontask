@@ -948,4 +948,14 @@ if len(s) % 2 == 1:
 print(yeni)    
 """
 
+"""s = input()
+yeni = ""
+
+for d in "0123456789":
+    for c in s:
+        if c == d:
+            if d not in res:
+                res += d
+
+print(yeni)"""
 
