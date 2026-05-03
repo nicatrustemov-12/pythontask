@@ -954,7 +954,7 @@ yeni = ""
 for d in "0123456789":
     for c in s:
         if c == d:
-            if d not in res:
+            if d not in yeni:
                 res += d
 
 print(yeni)"""
