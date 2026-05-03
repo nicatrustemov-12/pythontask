@@ -916,11 +916,36 @@ for x in range(0,10):
 print('daxil edilen:',l1,"qalanlar",l2)"""
 
 
+"""s = input()
 
+lower = "abcdefghijklmnopqrstuvwxyz"
+upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
+yeni = ""
+
+for c in s:
+    for i in range(26):
+        if c == lower[i]:
+            yeni += upper[i]
+            break
+        if c == upper[i]:
+            yeni += lower[i]
+            break
+    else:
+        yeni += c   
+
+print(yeni)
+"""
 
     
-    
-
+"""
+s = input()
+yeni = ""
+for i in range(0, len(s)-1, 2):
+    yeni += s[i+1] + s[i]
+if len(s) % 2 == 1:
+    yeni += s[-1]
+print(yeni)    
+"""
 
 
