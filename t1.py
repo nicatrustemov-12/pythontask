@@ -955,3 +955,48 @@ for d in "0123456789":
 
 print(yeni)"""    #7
 
+
+"""s = input()+" "
+soz=""
+sozler=[]
+for i in s:
+    if "a"<=i<="z" or "A"<=i<="Z":
+        soz+=i
+    
+    else:
+        if soz!="":
+            sozler+=[soz]
+            soz=""
+print(sozler)
+max_say = 0
+netice = []
+
+i = 0
+while i < len(sozler):
+    soz = sozler[i]
+    
+    
+    say = 0
+    j = 0
+    while j < len(soz):
+        if soz[j] == 'a':
+            say += 1
+        j += 1
+    
+    
+    if say > max_say:
+        max_say = say
+        netice = [soz]
+    elif say == max_say:
+        netice += [soz]
+    
+    i += 1
+
+
+i = 0
+while i < len(netice):
+    print(netice[i], end=" ")
+    i += 1
+"""         #8
+    
+
