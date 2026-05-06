@@ -1025,3 +1025,11 @@ while i < len(s):
 
 print(yeni)"""   #9
 
+
+"""tek=input()
+cut=input()
+parol=""
+for i in range(len(tek)):
+    parol+=tek[i]
+    parol+=cut[i]
+print(parol)"""   #10
