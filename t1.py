@@ -1000,3 +1000,28 @@ while i < len(netice):
 """         #8
     
 
+"""s = input()
+
+yeni = ""
+i = 0
+
+while i < len(s):
+    herf = s[i]
+    
+    
+    tapildi = False
+    j = 0
+    
+    while j < len(yeni):
+        if yeni[j] == herf:
+            tapildi = True
+            break
+        j += 1
+    
+    if tapildi == False:
+        yeni += herf
+    
+    i += 1
+
+print(yeni)"""   #9
+
