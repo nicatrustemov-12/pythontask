@@ -1046,3 +1046,44 @@ for i in range(n):
         val = val * (i - j) // (j + 1)
     
     print()"""  #paskal
+
+
+"""
+def bub(a):
+    for i in range(len(a)-1):
+        for j in range(len(a)-i-1):
+
+            if a[j][1] < a[j+1][1]:
+                a[j],a[j+1]=a[j+1],a[j]
+
+    return a
+
+a=input()+" "
+
+soz=""
+sozler=[]
+
+for i in a:
+
+    if "a"<=i<="z" or "A"<=i<="Z" or "0"<=i<="9":
+        soz+=i
+
+    else:
+
+        if soz!="":
+
+            cem=0
+
+            for j in soz:
+
+                if "0"<=j<="9":
+                    cem+=int(j)
+
+            sozler+=[[soz,cem]]
+
+        soz=""
+
+sozler=bub(sozler)
+
+print(sozler)"""
+    
