@@ -1155,5 +1155,29 @@ if len(yeni) > len(en):
     en = yeni
 
 print(en)"""   #tekrarsız ən uzun hisse
+
+
+"""from random import randint
+def sor(x,k):
+    for i in range(len(x)-1):
+        for j in range(len(x)-i-1):
+            if x[j]>x[j+1]:
+                x[j],x[j+1]=x[j+1],x[j]
+    if k>0:
+        return x
+    else:
+        return x[::-1]
+l1=[randint(10,100) for i in range(6)] 
+print(l1)
+l1=sor(l1,1)   
+print(l1) 
+def ebob(a,b):
+    while b:
+        a,b=b,a%b
+    return a  
+l2=[]
+for i in range(0,len(l1),2):
+    l2+=[ebob(l1[i],l1[i+1])]
+print(l2)  """      
     
           
