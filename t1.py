@@ -1180,4 +1180,20 @@ for i in range(0,len(l1),2):
     l2+=[ebob(l1[i],l1[i+1])]
 print(l2)  """      
     
+
+
+"""def cem(x):
+    cem=0
+    while x:
+        cem+=x%10
+        x//=10
+    return cem  
+x=int(input())
+while x>9:
+    a=cem(x)
+    print("cem",a)
+    x=a"""
+    
+    
+          
           
