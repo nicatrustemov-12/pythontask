@@ -1129,3 +1129,31 @@ for i in range(row):
     if minn == maxx:
         print("tapildi:", minn)"""
     
+
+
+"""s = input()
+
+en = ""
+yeni = ""
+
+for x in s:
+
+    if x not in yeni:
+        yeni += x
+
+    else:
+
+        if len(yeni) > len(en):
+            en = yeni
+
+        while x in yeni:
+            yeni = yeni[1:]
+
+        yeni += x
+
+if len(yeni) > len(en):
+    en = yeni
+
+print(en)"""   #tekrarsız ən uzun hisse
+    
+          
