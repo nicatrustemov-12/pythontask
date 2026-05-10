@@ -1086,4 +1086,46 @@ for i in a:
 sozler=bub(sozler)
 
 print(sozler)"""
+
+
+
+"""row = int(input())
+col = int(input())
+
+from random import randint
+
+a = [[randint(10,50) for i in range(col)] for j in range(row)]
+
+for i in range(row):
+
+    for j in range(col):
+        print(f"{a[i][j]:4d}", end="")
+
+    print()
+
+
+for i in range(row):
+
+    minn = a[i][0]
+    col_index = 0
+
+    # setrin minimumu
+    for j in range(col):
+
+        if a[i][j] < minn:
+            minn = a[i][j]
+            col_index = j
+
+
+    # sutunda maksimum olub olmadigini yoxla
+    maxx = a[0][col_index]
+
+    for k in range(row):
+
+        if a[k][col_index] > maxx:
+            maxx = a[k][col_index]
+
+
+    if minn == maxx:
+        print("tapildi:", minn)"""
     
