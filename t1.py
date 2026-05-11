@@ -1219,6 +1219,25 @@ def bub(a):
 yeni=bub(yeni)
 print(yeni)    """
 
+
+
+"""s=input()
+herf=""
+say=[]
+sait="euioa"
+for i in s:
+    if i not in herf and i in sait:
+        c=0
+        for j in s:
+            if j==i:
+                c+=1
+        herf+=i
+        say+=[c] 
+yeni=[]
+for d in range(len(herf)):
+    yeni+=[[herf[d],say[d]]]
+print(yeni) """                  
+
     
     
           
