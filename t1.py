@@ -1194,6 +1194,32 @@ while x>9:
     print("cem",a)
     x=a"""
     
+
+"""s=input()
+herf=""
+say=[]
+for i in s:
+    if i not in herf:
+        c=0
+        for j in s:
+            if j==i:
+                c+=1
+        herf+=i
+        say+=[c]
+yeni=[]
+for i in range(len(herf)):
+    yeni+=[[herf[i],say[i]]]
+def bub(a):
+    for i in range(len(a)-1):
+        for j in range(len(a)-i-1):
+
+            if a[j][1] < a[j+1][1]:
+                a[j],a[j+1]=a[j+1],a[j]
+    return a
+yeni=bub(yeni)
+print(yeni)    """
+
+    
     
           
           
