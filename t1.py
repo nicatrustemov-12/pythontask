@@ -1238,7 +1238,61 @@ for d in range(len(herf)):
     yeni+=[[herf[d],say[d]]]
 print(yeni) """                  
 
+
+
     
+"""from random import*       
+n=int(input())
+a=[[randint(10,100) for i in range(n)]for j in range(n)]
+maks=a[0][0]
+minn=a[0][0]
+for i in range(n):
+    for j in range(n):
+        print(f"{a[i][j] :4d}",end=" ")
     
+        if i==0 or i==n-1 or j==0 or j==n-1:
+             if a[i][j]>maks:
+                 maks=a[i][j]
+        if i==j or i+j==n-1:
+            if a[i][j]<minn:
+                minn=a[i][j]         
+    print()             
+print(maks)     
+print(minn)             """    
+
+
+
+
+"""def bub(a):
+    for i in range(len(a)-1):
+        for j in range(len(a)-1-i):
+            if a[j][0] > a[j+1][0]:
+                a[j],a[j+1]=a[j+1],a[j]
+            elif a[j][0] == a[j+1][0]:
+                if len(a[j][1]) > len(a[j+1][1]):
+                    a[j],a[j+1]=a[j+1],a[j]
+    return a            
+s=input()+" "
+soz=""
+sozler=[]
+for i in s:
+    if "a"<=i<="z" or "A"<=i<="Z" or"0"<=i<="9":
+        soz+=i
+    else:
+        if soz!=" ":
+            sozler+=[soz]
+        soz=""    
+
+b=[]            
+for j in sozler:
+    hasil=1
+    for k in j:
+        if "0"<=k<="9":
+            hasil*=int(k)
+    b+=[[hasil,j]]
+
+b=bub(b) 
+print(b)    """        
+             
           
           
