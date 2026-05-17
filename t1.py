@@ -1347,5 +1347,34 @@ for i in range(row):
     for j in range(col):
         print(f"{a[i][j]:4d}", end="")
     print()
-"""          
+"""   
+
+
+
+
+
+"""    
+from random import randint
+row = int(input("Setir sayı: "))
+col = int(input("Sutun sayı: "))
+a = [[randint(1,100) for i in range(col)] for j in range(row)]
+print("Matris:")
+for i in range(row):
+    for j in range(col):
+        print(f"{a[i][j]:4d}", end="")
+    print()
+for i in range(row):
+    son = a[i][col-1]
+
+    for j in range(col-1, 0, -1):
+        a[i][j] = a[i][j-1]
+
+    a[i][0] = son
+
+for i in range(row):
+
+    for j in range(col):
+        print(a[i][j], end=" ")
+
+    print()"""       
           
