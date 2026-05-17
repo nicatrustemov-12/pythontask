@@ -1298,7 +1298,9 @@ print(b)    """
 
 
 
-"""
+"""      # sutun ve setrin yerini deyismek,setir ve sutun ceminin min ve ya maksinin tapilmasi
+
+
 from random import randint
 row = int(input("Setir sayı: "))
 col = int(input("Sutun sayı: "))
