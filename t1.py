@@ -1294,5 +1294,56 @@ for j in sozler:
 b=bub(b) 
 print(b)    """        
              
-          
+
+
+
+
+"""
+from random import randint
+row = int(input("Setir sayı: "))
+col = int(input("Sutun sayı: "))
+a = [[randint(1,100) for i in range(col)] for j in range(row)]
+print("Matris:")
+for i in range(row):
+    for j in range(col):
+        print(f"{a[i][j]:4d}", end="")
+    print()
+# Setirlerin cemi
+maks = 0
+rowidx = 0
+for i in range(row):
+    cem = 0
+    for j in range(col):
+        cem += a[i][j]
+    if i == 0 or cem > maks:
+        maks = cem
+        rowidx = i
+print("\nEn boyuk setir cemi:", maks)
+print("Setir indexi:", rowidx)
+# Sutunlarin cemi
+minn = 0
+colidx = 0
+for j in range(col):
+    cem2 = 0
+    for i in range(row):
+        cem2 += a[i][j]
+    if j == 0 or cem2 < minn:
+        minn = cem2
+        colidx = j
+print("\nEn kicik sutun cemi:", minn)
+print("Sutun indexi:", colidx)
+# row ve col-den kiciyini tap
+if row < col:
+    k = row
+else:
+    k = col
+# Swap
+for i in range(k):
+    a[rowidx][i], a[i][colidx] = a[i][colidx], a[rowidx][i]
+print("\nYeni matris:")
+for i in range(row):
+    for j in range(col):
+        print(f"{a[i][j]:4d}", end="")
+    print()
+"""          
           
