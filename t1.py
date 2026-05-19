@@ -1459,3 +1459,28 @@ for i in s:
         istifade += [i]
         netice += [[i, say]]
 print(netice)  """
+
+
+
+"""cumle=input()+" "
+
+sozler=[]
+soz=""
+
+for i in cumle:
+
+    if i!=" ":
+        soz+=i
+
+    else:
+        if soz!="":
+            sozler+=[soz]
+            soz=""
+
+for i in range(len(sozler)):
+    for j in range(len(sozler)-1):
+
+        if sozler[j] > sozler[j+1]:
+            sozler[j],sozler[j+1]=sozler[j+1],sozler[j]
+
+print(sozler)"""
