@@ -1429,4 +1429,18 @@ def quvvet(a, b):
         a = a // b
     return a == 1
 print(quvvet(a, b))"""
+
+
+"""a=[randint(10,100) for i in range(8)]
+print(a)
+def bub(a):
+    for i in range(len(a)-1):
+        for j in range((len(a)-i-1)):
+            if a[j]>a[j+1]:
+                a[j],a[j+1]=a[j+1],a[j]
+    return a
+def yoxla(b):
+    c=b[:] # kopya yardir
+    return b==bub(c)
+print(yoxla(a)) """    
           
