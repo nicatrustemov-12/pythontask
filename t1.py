@@ -1444,3 +1444,18 @@ def yoxla(b):
     return b==bub(c)
 print(yoxla(a)) """    
           
+
+
+"""
+s = input()
+istifade = []
+netice = []
+for i in s:
+    if i not in istifade:
+        say = 0
+        for j in s:
+            if i == j:
+                say += 1
+        istifade += [i]
+        netice += [[i, say]]
+print(netice)  """
