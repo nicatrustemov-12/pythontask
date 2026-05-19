@@ -1395,5 +1395,29 @@ while a > 0:
     a = a // 10
 
 else:
-    print("Yox.")"""     
+    print("Yox.")"""   
+
+
+""" 
+from random import randint
+def fib(y):
+    a = 0
+    b = 1
+    while a < y:
+        a, b = b, a + b
+    return a == y
+A = []
+n = int(input("Element sayı: "))
+for i in range(n):
+    A += [randint(1, 100)]
+B = []
+for i in A:
+    if fib(i):
+        B += [i]
+print("A massivi:")
+for i in A:
+    print(i, end=" ")
+print("\nB massivi:")
+for i in B:
+    print(i, end=" ") """    
           
