@@ -1462,7 +1462,7 @@ print(netice)  """
 
 
 
-"""cumle=input()+" "
+"""cumle=input()+" "     #elifba sirasi ile
 
 sozler=[]
 soz=""
