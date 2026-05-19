@@ -1484,3 +1484,20 @@ for i in range(len(sozler)):
             sozler[j],sozler[j+1]=sozler[j+1],sozler[j]
 
 print(sozler)"""
+
+
+
+"""     # a setrinde b setrinin neçe defe istirak etdiyini tapmaq          
+a=input()
+b=input()
+say=0
+for i in range(len(a)-len(b)+1):
+    t=True
+    for j in range(len(b)):
+        if a[i+j]!=b[j]:
+            t=False
+    if t:
+        say+=1
+print(say)                
+"""
+    
