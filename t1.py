@@ -1376,5 +1376,24 @@ for i in range(row):
     for j in range(col):
         print(a[i][j], end=" ")
 
-    print()"""       
+    print()"""  
+
+
+"""
+a = int(input("Natural ədədi daxil edin: "))
+
+reqemler = []
+
+while a > 0:
+    reqem = a % 10
+    
+    if reqem in reqemler:
+        print("Hə.")
+        break
+    
+    reqemler += [reqem]
+    a = a // 10
+
+else:
+    print("Yox.")"""     
           
