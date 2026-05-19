@@ -1420,4 +1420,13 @@ for i in A:
 print("\nB massivi:")
 for i in B:
     print(i, end=" ") """    
+
+
+"""a = int(input())
+b = int(input())
+def quvvet(a, b):
+    while a % b == 0:
+        a = a // b
+    return a == 1
+print(quvvet(a, b))"""
           
