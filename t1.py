@@ -1500,4 +1500,25 @@ for i in range(len(a)-len(b)+1):
         say+=1
 print(say)                
 """
+
+
+"""cumle=input()+" "   #ilk herf boyuk yazma
+yeni=""
+soz=""
+sozler=[]
+
+kicik="abcdefghijklmnopqrstuvwxyz"
+boyuk="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+for i in cumle:
+    if i!=" ":
+        soz+=i
+    else:
+        if soz!="":
+            for j in range(len(kicik)):
+                if soz[0]==kicik[j]:
+                    yeni+=boyuk[j]   
+            sozler+=[yeni+soz[1:]]
+            soz=""
+            yeni=""
+print(sozler)"""     
     
