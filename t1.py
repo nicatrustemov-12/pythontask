@@ -1705,3 +1705,15 @@ for x in range(len(a)):
              print(x+1,"ve",c+1,"setirleri eynidir")
 if v==0:
     print("yoxdur") """
+
+
+
+#eyni sutun
+"""for x in range(col):
+    for c in range(x+1,col):
+        eyni = True
+        for i in range(row):
+            if a[i][x] != a[i][c]:
+                eyni = False
+        if eyni == True:
+            print(x+1,"ve",c+1,"sutunlari eynidir")"""
