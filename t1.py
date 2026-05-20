@@ -1521,4 +1521,23 @@ for i in cumle:
             soz=""
             yeni=""
 print(sozler)"""     
+
+
+
+"""def tek(x):    #cutleri yerinde saxlamaqla tekleri sortlamaq
+    return x % 2 != 0
+def bub(a):
+    for i in range(len(a)-1):
+        for j in range(len(a)-1-i):
+            if tek(a[j]):
+                k = j + 1
+                while k < len(a):
+                    if tek(a[k]):
+                        if a[j] > a[k]:
+                            a[j], a[k] = a[k], a[j]
+                        break
+                    k += 1
+    return a
+a = [9,8,1,6,5]
+print(bub(a))"""
     
