@@ -1774,3 +1774,27 @@ def ebob(a,b):
         a,b=b,a%b
     return a
 print(ebob(maks,maks2))""" 
+
+
+
+
+"""metn = input("Mətni daxil edin: ")
+netice = ""
+i = 0
+uzunluq = len(metn)
+while i < uzunluq:
+    if i + 2 < uzunluq and \
+       (metn[i] == 'b' or metn[i] == 'B') and \
+       (metn[i+1] == 'a' or metn[i+1] == 'A') and \
+       (metn[i+2] == 'd' or metn[i+2] == 'D'):
+        netice += "good"
+        i += 3
+    elif '0' <= metn[i] <= '9':
+        reqem = int(metn[i])
+        for _ in range(reqem):
+            netice += "*"
+        i += 1
+    else:
+        netice += metn[i]
+        i += 1
+print(f"\nNəticə: {netice}")"""
