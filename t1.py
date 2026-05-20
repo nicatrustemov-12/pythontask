@@ -1644,3 +1644,32 @@ for i in range(row):
     for j in range(col):
         print(f'{c[i][j]:4d}',end=' ')
     print()    """
+
+
+#setirleri sortlamaq    
+"""from random import randint
+row = int(input())
+col = int(input())
+a = [[randint(1, 100) for i in range(col)] for j in range(row)]
+print("Matris:")
+for i in range(row):
+    for j in range(col):
+        print(f"{a[i][j]:4d}", end="")
+    print()
+# Setirleri siralama
+for i in range(row):
+    for k in range(col - 1):
+        for j in range(col - 1):
+            if a[i][j] > a[i][j + 1]:
+                a[i][j], a[i][j + 1] = a[i][j + 1], a[i][j]
+print("\nSiralanmis:")
+for i in range(row):
+    for j in range(col):
+        print(f"{a[i][j]:4d}", end="")
+    print() """  
+#sutunlari sortlamaq
+"""for j in range(col):
+    for k in range(row - 1):
+        for i in range(row - 1):
+            if a[i][j] > a[i + 1][j]:
+                a[i][j], a[i + 1][j] = a[i + 1][j], a[i][j]"""
