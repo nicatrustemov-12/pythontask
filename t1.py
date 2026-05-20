@@ -1552,3 +1552,31 @@ for i in range(len(a)-1):
         if tezlik(a[j], a) > tezlik(a[j+1], a):
             a[j], a[j+1] = a[j+1], a[j]
 print("Yeni:", a)  """ 
+
+
+
+#sozun herflerini elifba sirasina gore siralamaq
+"""soz=""
+a=[]
+s=input()+" "
+for i in s:
+    if "a"<=i<="z":
+        soz+=i
+    else:
+        if soz!=" ":
+            a+=[soz]
+        soz=""
+print("İlkin:", a)
+for k in range(len(a)):
+    herf = []
+    for h in a[k]:
+        herf += [h]
+    for i in range(len(herf)-1):
+        for j in range(len(herf)-1-i):
+            if herf[j] > herf[j+1]:
+                herf[j], herf[j+1] = herf[j+1], herf[j]
+    yeni = ""
+    for h in herf:
+        yeni += h
+    a[k] = yeni
+print("Yeni:", a)  """
