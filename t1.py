@@ -1580,3 +1580,35 @@ for k in range(len(a)):
         yeni += h
     a[k] = yeni
 print("Yeni:", a)  """
+
+
+#matrisin umumi setir ve sutunun yerini deyismek
+"""from random import randint
+col=int(input())
+row=int(input())
+a=[[randint(1,100) for i in range(col)] for j in range(row)]
+for i in range(row):
+    for j in range(col):
+        print(f'{a[i][j]:4d}',end=' ')
+    print()
+print()
+b=[]
+for j in range(col):
+    s=[]
+    for i in range(row):
+        s+=[a[i][j]]
+    b+=[s]
+for i in range(col):
+    for j in range(row):
+        print(f'{b[i][j]:4d}',end=' ')
+    print()"""
+#matrisin verilmis setir ve sutunun yerini deyismek    
+"""if row < col:
+    k = row
+else:
+    k = col
+rowidx=int(input())
+colidx=int(input())    
+# Swap
+for i in range(k):
+    a[rowidx][i], a[i][colidx] = a[i][colidx], a[rowidx][i] """
