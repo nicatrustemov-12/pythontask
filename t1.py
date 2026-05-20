@@ -1753,3 +1753,24 @@ for i in range(len(matris)):
     for j in range(len(matris[i])):
         print(f'{matris[i][j]:4d}',end=' ')
     print()"""
+
+
+
+#ikinci maks birinciden ferqli olmasi 
+"""a=[randint(1,100) for i in range(6)]
+print(a)
+maks=-1
+maks2=-1
+for x in a:
+    if x > maks:
+        maks2 = maks
+        maks = x
+    elif maks > x:  
+        if x > maks2:
+            maks2 = x
+print(maks,maks2)     
+def ebob(a,b):
+    while b:
+        a,b=b,a%b
+    return a
+print(ebob(maks,maks2))""" 
