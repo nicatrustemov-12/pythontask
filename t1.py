@@ -1535,3 +1535,20 @@ def bub(a):
                         if a[j]>a[k]:
                             a[j],a[k]=a[k],a[j]
     return a"""
+
+
+"""from random import randint
+n = int(input("n: "))
+a = [randint(1, 9)for i in range(n)]
+print("İlkin:", a)
+def tezlik(x, a):
+    say = 0
+    for i in a:
+        if i == x:
+            say += 1
+    return say
+for i in range(len(a)-1):
+    for j in range(len(a)-1-i):
+        if tezlik(a[j], a) > tezlik(a[j+1], a):
+            a[j], a[j+1] = a[j+1], a[j]
+print("Yeni:", a)  """ 
