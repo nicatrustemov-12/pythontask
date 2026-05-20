@@ -1712,3 +1712,21 @@ if v==0:
                 eyni = False
         if eyni == True:
             print(x+1,"ve",c+1,"sutunlari eynidir")"""
+
+
+#90° sola
+"""for j in range(col-1,-1,-1):
+    for i in range(row):
+        print(a[i][j], end=' ')
+    print()""" 
+    
+#90° saga   
+"""for j in range(col):
+    for i in range(row-1,-1,-1):
+        print(a[i][j], end=' ')
+    print()"""  
+
+#180°
+"""for i in range(row-1,-1,-1):
+    for j in range(col-1,-1,-1):
+        print(a[i][j], end=' ')"""  
