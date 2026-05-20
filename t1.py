@@ -1612,3 +1612,35 @@ colidx=int(input())
 # Swap
 for i in range(k):
     a[rowidx][i], a[i][colidx] = a[i][colidx], a[rowidx][i] """
+
+
+
+#matrisin basqa bir matrise hasili   
+"""from random import randint
+row=int(input())
+col=int(input())
+a=[[randint(1,10) for i in range(col)] for j in range(row)]
+b=[[randint(1,10) for i in range(col)] for j in range(row)]
+print("A matrisi:")
+for i in range(row):
+    for j in range(col):
+        print(f'{a[i][j]:4d}',end=' ')
+    print()
+print()
+print("B matrisi:")
+for i in range(row):
+    for j in range(col):
+        print(f'{b[i][j]:4d}',end=' ')
+    print()
+print()
+c=[]
+for i in range(row):
+    s=[]
+    for j in range(col):
+        s+=[a[i][j]*b[i][j]]
+    c+=[s]
+print("Hasil:")
+for i in range(row):
+    for j in range(col):
+        print(f'{c[i][j]:4d}',end=' ')
+    print()    """
