@@ -1673,3 +1673,14 @@ for i in range(row):
         for i in range(row - 1):
             if a[i][j] > a[i + 1][j]:
                 a[i][j], a[i + 1][j] = a[i + 1][j], a[i][j]"""
+
+
+
+# Birinci ve sonuncu setirin yerini deyismek
+"""for j in range(col):
+    a[0][j], a[row-1][j] = a[row-1][j], a[0][j]"""
+
+
+#birinci ve sonuncu sutunun yerini deyismek
+"""for i in range(row):
+    a[i][0], a[i][col-1] = a[i][col-1], a[i][0]"""
