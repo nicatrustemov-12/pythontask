@@ -1730,3 +1730,26 @@ if v==0:
 """for i in range(row-1,-1,-1):
     for j in range(col-1,-1,-1):
         print(a[i][j], end=' ')"""  
+
+
+#sade bolenler matrisi
+"""def sadeb(x):
+    a=[]
+    bolen=2
+    while x>1:
+        if x%bolen==0:
+            a+=[bolen]
+            while x%bolen==0:
+                x//=bolen
+        bolen+=1
+    return a
+a=[randint(10,100) for k in range(6)]
+matris=[]
+for x in a:
+    matris+=[sadeb(x)]
+print(matris)
+#matris formasinda cap etmek ucun    
+for i in range(len(matris)):
+    for j in range(len(matris[i])):
+        print(f'{matris[i][j]:4d}',end=' ')
+    print()"""
