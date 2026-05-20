@@ -1684,3 +1684,24 @@ for i in range(row):
 #birinci ve sonuncu sutunun yerini deyismek
 """for i in range(row):
     a[i][0], a[i][col-1] = a[i][col-1], a[i][0]"""
+
+
+
+
+#eyni setir                 
+"""row = int(input("Setir: "))
+col = int(input("Sutun: "))
+a = [[randint(1,20) for i in range(col)] for j in range(row)]
+print("Matris:")
+for i in range(row):
+    for j in range(col):
+        print(f'{a[i][j]:4d}', end=" ")
+    print()   
+v=0
+for x in range(len(a)):
+    for c in range(x+1,len(a)):
+        if a[x]==a[c]:
+             v=1
+             print(x+1,"ve",c+1,"setirleri eynidir")
+if v==0:
+    print("yoxdur") """
