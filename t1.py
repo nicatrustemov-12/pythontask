@@ -1591,17 +1591,12 @@ for i in range(row):
     for j in range(col):
         print(f'{a[i][j]:4d}',end=' ')
     print()
-print()
-b=[]
 for j in range(col):
-    s=[]
     for i in range(row):
-        s+=[a[i][j]]
-    b+=[s]
-for i in range(col):
-    for j in range(row):
-        print(f'{b[i][j]:4d}',end=' ')
-    print()"""
+         print(f'{a[i][j]:4d}',end=' ')
+    print() """
+
+
 #matrisin verilmis setir ve sutunun yerini deyismek    
 """if row < col:
     k = row
