@@ -1841,3 +1841,31 @@ for i in range(len(d)):
     for j in range(len(d[i])):
         print(d[i][j], end=" ")
     print()"""
+
+
+#Dag ededi    
+"""x=int(input())
+b=[]
+a=[]
+while x:
+    b+=[x%10]
+    x//=10
+for i in range(len(b)-1,-1,-1):
+    a+=[b[i]]
+zirve=0
+for i in range(len(a)-1):
+    if a[i] < a[i+1]:
+        zirve=i+1
+    else:
+        break
+if zirve==0 or zirve==len(a)-1:
+    print("yanlis")
+else:
+    f=1
+    for i in range(zirve,len(a)-1):
+        if a[i] <= a[i+1]:
+            f=0
+    if f==1:
+        print("dogru")
+    else:
+        print("yanlis")     """
