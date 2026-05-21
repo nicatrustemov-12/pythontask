@@ -1816,3 +1816,28 @@ for i in range(len(x)//2,0,-1):
         cavab=pref
         break
 print(cavab)"""     
+
+
+#matrisi transpose edib setirleri sortlamaq
+"""def bub(a):
+    for i in range(len(a)):
+        for j in range(len(a)-i-1):
+            if a[j]<a[j+1]:
+                a[j],a[j+1]=a[j+1],a[j]
+    return a            
+d=[]
+row=int(input())
+col=int(input())
+a=[[randint(1,100)for i in range(col)]for j in range(row)]   
+for j in range(col):
+    l=[] 
+    for i in range(row):
+        print(a[i][j],end=" ")
+        l+=[a[i][j]]
+    d+=[bub(l)] 
+    print()  
+print(d)
+for i in range(len(d)):
+    for j in range(len(d[i])):
+        print(d[i][j], end=" ")
+    print()"""
