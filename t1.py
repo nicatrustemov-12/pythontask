@@ -1798,3 +1798,21 @@ while i < uzunluq:
         netice += metn[i]
         i += 1
 print(f"\nNəticə: {netice}")"""
+
+
+
+#stringin reverse edilmesi ve guzgulu prefix axtarma
+"""def rev(s):
+    ters=""
+    for i in range(len(s)):
+        ters+=s[len(s)-1-i]
+    return ters
+
+x=input()
+cavab=""
+for i in range(len(x)//2,0,-1):
+    pref=x[:i]
+    if rev(pref)==x[len(x)-i:]:
+        cavab=pref
+        break
+print(cavab)"""     
