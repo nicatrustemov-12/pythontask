@@ -1502,6 +1502,27 @@ print(say)
 """
 
 
+# a setrinde b setrini c setri ile evez etmek
+"""a = input() + " "
+b = input()
+c = input()
+yeni = ""
+i = 0
+while i <= len(a) - len(b):
+    f = 1
+    for j in range(len(b)):
+        if a[i+j] != b[j]:
+            f = 0
+            break
+    if f == 1:
+        yeni += c
+        i += len(b)
+    else:
+        yeni += a[i]
+        i += 1
+print(yeni)"""        
+
+
 """cumle=input()+" "   #ilk herf boyuk yazma
 yeni=""
 soz=""
