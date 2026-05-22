@@ -1890,3 +1890,20 @@ else:
         print("dogru")
     else:
         print("yanlis")     """
+
+
+#ozunu tesvir eden eded
+"""a=input()
+dogru=True
+for i in range(len(a)):
+    say=0
+    for j in range(len(a)):
+        if int(a[j])==i:
+            say+=1
+    if say!=int(a[i]):
+        dogru=False
+        break
+if dogru:
+    print("Ozunu tesvir edir")
+else:
+    print("Ozunu tesvir etmir")"""
