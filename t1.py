@@ -1907,3 +1907,27 @@ if dogru:
     print("Ozunu tesvir edir")
 else:
     print("Ozunu tesvir etmir")"""
+
+
+
+#stringi matrix kimi cap etmek
+"""from math import *
+a = "abcdfghj37dh"
+i = len(a)
+while sqrt(i) % 1 != 0:
+    i += 1
+n = int(sqrt(i))
+c = []
+for i in range(n):
+    b = []
+    for j in range(n):
+        index = i*n + j
+        if index < len(a):
+            b += [a[index]]
+        else:
+            b += [" "]
+    c += [b]
+for i in c:
+    for j in i:
+        print(j, end=" ")
+    print()"""
